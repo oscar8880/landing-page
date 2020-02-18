@@ -28,6 +28,8 @@ h1 {
 /*Section titles*/
 h2 {
   font-weight: 300;
+  font-size: 2em;
+  margin-top: 15px;
   margin-bottom: 15px;
 }
 
@@ -141,7 +143,6 @@ input[type=text] {
   margin: 10px 0;
   color: #7F7F7F;
   font-size: 1em;
-  letter-spacing: 0.6px;
 }
 
 input[type=button] {
@@ -151,7 +152,6 @@ input[type=button] {
   background-color: #f19953;
   color: white;
   font-size: 1.2em;
-  letter-spacing: 0.6px;
   border: none;
 }
 
