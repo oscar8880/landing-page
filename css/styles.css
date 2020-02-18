@@ -65,10 +65,18 @@ header {
   margin: 0;
 }
 
-header img{
+header .logo-img{
   height: 30px;
   width: 30px;
   margin-bottom: -1px;
+}
+
+header .login-img{
+  position: absolute;
+  height:30px;
+  width: 30px;
+  top: 15px;
+  right: 15px;
 }
 
 nav {
@@ -128,8 +136,9 @@ section {
 .sign-up-text {
   text-align: center;
   font-size: 1.5em;
-  padding: 20px 0 10px 0;
+  padding: 20px 0 35px 0;
   color: white;
+  line-height: 1.5em;
 }
 
 .sign-up-section > form {
