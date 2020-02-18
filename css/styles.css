@@ -262,15 +262,12 @@ input[type=button] {
   border: none;
 }
 
-.careers-section > input[type=button] {
+.careers-section > img {
   padding: 0;
   margin-bottom: -20px;
-  height: 50px;
-  width: 50px;
-  background-image: url(./images/search.png);
-  background-repeat: no-repeat;
-  background-size: 50%;
-  background-position: center;
+  height: 25px;
+  width: 25px;
+  padding: 12.5px;
   background-color: #f19953;
   border: none;
 }
@@ -317,18 +314,6 @@ footer > p {
 
 /*
   FOR SCREENS WIDER THAN 768px
-*/
-
-/*
-input[type=text] {
-  height: 30px;
-  width: 60%;
-  padding: 10px 15px;
-  margin: 10px 0;
-  color: #7F7F7F;
-  font-size: 1em;
-  letter-spacing: 0.6px;
-}
 */
 
 @media (min-width: 768px) {
