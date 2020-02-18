@@ -267,7 +267,7 @@ input[type=button] {
   margin-bottom: -20px;
   height: 50px;
   width: 50px;
-  background-image: url(/images/search.png);
+  background-image: url(./images/search.png);
   background-repeat: no-repeat;
   background-size: 50%;
   background-position: center;
