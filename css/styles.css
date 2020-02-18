@@ -8,6 +8,20 @@ body {
 }
 
 /*
+  PREVENT iOS styling inputs
+*/
+
+textarea,
+input.text,
+input[type="text"],
+input[type="button"],
+input[type="submit"],
+.input-checkbox {
+-webkit-appearance: none;
+border-radius: 0;
+}
+
+/*
   FONT PROPERTIES
 */
 
@@ -131,6 +145,8 @@ section {
 .sign-up-section {
   background-color: #3daaf6;
   padding: 25px 0 45px 0;
+  text-align: center;
+
 }
 
 .sign-up-text {
@@ -141,10 +157,6 @@ section {
   line-height: 1.5em;
 }
 
-.sign-up-section > form {
-  text-align: center;
-}
-
 input[type=text] {
   height: 30px;
   width: 60%;
@@ -152,11 +164,12 @@ input[type=text] {
   margin: 10px 0;
   color: #7F7F7F;
   font-size: 1em;
+  border: none;
 }
 
 input[type=button] {
   height: 60px;
-  width: calc(60% + 34px);
+  width: calc(60% + 30px);
   margin: 10px 0;
   background-color: #f19953;
   color: white;
@@ -267,7 +280,6 @@ input[type=button] {
   margin: 20px 0;
   color: #7F7F7F;
   font-size: 1em;
-  letter-spacing: 0.6px;
   border: none;
 }
 
@@ -328,13 +340,13 @@ footer > p {
 @media (min-width: 768px) {
   input[name=fname] {
     display: inline-block;
-    width: calc(30% - 29px);
+    width: calc(30% - 27px);
     margin-right: 10px;
   }
 
   input[name=lname] {
     display: inline-block;
-    width: calc(30% - 29px);
+    width: calc(30% - 27px);
     margin-left: 10px;
   }
 }
