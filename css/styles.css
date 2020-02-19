@@ -65,6 +65,15 @@ p {
   margin: 0 30px;
 }
 
+a {
+  color: white;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
 /*
   PAGE COMPONENTS
 */
@@ -94,10 +103,17 @@ header .login-img{
 }
 
 nav {
+  overflow: hidden;
   background-color: #0072bb;
   color: white;
   padding: 10px 0;
   margin: 0;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
 }
 
 nav ul {
@@ -114,6 +130,11 @@ nav li {
   padding-left: 10px;
   padding-right: 13px;
   margin: 8px 20px;
+  cursor: pointer;
+}
+
+.active {
+  border-left: 3px solid #f19953;
 }
 
 section {
@@ -138,6 +159,10 @@ section {
   background-color: white;
 }
 
+.hidden {
+  display: none;
+}
+
 /*
   SIGN-UP SECTION
 */
@@ -146,7 +171,10 @@ section {
   background-color: #3daaf6;
   padding: 25px 0 45px 0;
   text-align: center;
+}
 
+.sticky + .sign-up-section {
+  padding: 125px 0 45px 0;
 }
 
 .sign-up-text {
@@ -334,6 +362,15 @@ footer > p {
 
 
 /*
+  ADJUST FIRST SECTION TOP PADDING WHEN NAVBAR FITS ON ONE LINE
+*/
+@media (min-width: 529px) {
+  .sticky + .sign-up-section {
+    padding: 86px 0 45px 0;
+  }
+}
+
+/*
   FOR SCREENS WIDER THAN 768px
 */
 
@@ -349,4 +386,5 @@ footer > p {
     width: calc(30% - 27px);
     margin-left: 10px;
   }
+
 }
