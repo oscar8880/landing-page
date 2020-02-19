@@ -2,7 +2,7 @@
 
 ### A landing page for a fictional business: 'Shift.io'.
 
-The page is landing-page is structured in the following way:
+The page is structured in the following way:
 
 - A header
 - A navigation bar which follows the user as they scroll through the page
