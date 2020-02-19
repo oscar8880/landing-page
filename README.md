@@ -1,6 +1,6 @@
-### Shift.io landing page
+# Shift.io landing page
 
-# A landing page for a fictional business: 'Shift.io'.
+### A landing page for a fictional business: 'Shift.io'.
 
 The page is landing-page is structured in the following way:
 
