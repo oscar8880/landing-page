@@ -1,12 +1,12 @@
 # Shift.io landing page
 
-### A landing page for a fictional business: 'Shift.io'.
+### A vanilla javascript project
 
-The page is structured in the following way:
+For this project I created a landing page for a fictional business, Shift.io. 
 
-- A header
-- A navigation bar which follows the user as they scroll through the page
-- Four sections of content including: a sign-up form, information about the company, blog and news section and a careers and vacancies section
-- A footer with boilerplate copyright information.
+Go to https://oscar8880.github.io/landing-page/ to view the site.
 
-Interactivity is coded in vanilla Javascript ES6.
+The key learning points were:
+* Using Javascript to build interactivity into websites
+* Dynamically adding content with JS
+* Improving UX with JS
